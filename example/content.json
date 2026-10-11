@@ -1,0 +1,180 @@
+{
+  "lang": "en",
+  "gate": {
+    "label": { "en": "a museum for one", "fa": "یه موزه، فقط برای یه نفر" },
+    "intro": { "en": "Some rooms are only for you. This is one of them.", "fa": "بعضی اتاقا فقط مال توئن. این یکیشه." },
+    "question": { "en": "What’s the password?", "fa": "رمزش چیه؟" },
+    "placeholder": { "en": "password", "fa": "رمز" },
+    "button": { "en": "open", "fa": "باز کن" },
+    "wrong": {
+      "en": ["Nope. Not that one.", "Close. No, honestly, not close.", "Fine, here’s a little help:", "Have a look at the line below.", "I promise, it’s written right there.", "You’re doing this on purpose, aren’t you?"],
+      "fa": ["نوچ. این نیست.", "نزدیک بود. نه، راستش نبود.", "باشه، یه کمک کوچیک:", "یه نگاه به خط پایین بنداز.", "به خدا همون پایین نوشته.", "داری عمداً اذیتم می‌کنی، نه؟"]
+    },
+    "hint": { "en": "It’s only a demo, so the password is simply: demo", "fa": "این فقط یه نمونه‌ست؛ رمزش اینه: demo، با حروف انگلیسی." },
+    "welcome": { "en": "come in, Negar", "fa": "بیا تو، نگار" },
+    "verse": {
+      "fa": "دوست دارم که بپوشی رخ همچون قمرت\nتا چو خورشید نبینند به هر بام و درت",
+      "en": "I would have you veil that face, bright as the moon,\nso no one sees you, like the sun, on every roof and door.",
+      "poet": { "en": "Saadi", "fa": "سعدی" }
+    }
+  },
+  "photos": {
+    "01": { "file": "04-lady-with-flower.jpg", "focal": [0.6, 0.25], "date": "2022-03-26" },
+    "02": { "file": "03-princely-couple.jpg", "focal": [0.5, 0.24], "date": "2022-04-16" },
+    "03": { "file": "06-love-scene.jpg", "focal": [0.5, 0.57], "date": "2022-04-29" },
+    "04": { "file": "01-the-lovers.jpg", "focal": [0.64, 0.33], "date": "2022-04-29" },
+    "05": { "file": "07-dark-palace.jpg", "focal": [0.48, 0.57], "date": "2022-12-21" },
+    "06": { "file": "10-dilaram-music.jpg", "focal": [0.47, 0.42], "date": "2023-01-27" },
+    "07": { "file": "08-young-prince.jpg", "focal": [0.48, 0.24], "date": "2023-03-21" },
+    "08": { "file": "09-garden-courtyard.jpg", "focal": [0.56, 0.46], "date": "2023-03-21" },
+    "09": { "file": "12-nightingales-roses.jpg", "focal": [0.58, 0.48], "date": "2024-09-14" },
+    "10": { "file": "13-spanish-garden.jpg", "focal": [0.55, 0.75] },
+    "11": { "file": "05-red-pavilion.jpg", "focal": [0.47, 0.475], "date": "2025-08-22" },
+    "12": { "file": "14-moonlit-castle.jpg", "focal": [0.62, 0.43], "date": "2025-11-30" }
+  },
+  "title": { "en": "The Photos I Never Took", "fa": "عکس‌هایی که نگرفتم" },
+  "date": { "en": "Tehran · spring 2022 · still going", "fa": "تهران · بهار ۱۴۰۱ · هنوز ادامه داره" },
+  "epigraph": {
+    "fa": "ای دوست بیا تا غم فردا نخوریم\nوین یک دم عمر را غنیمت شمریم",
+    "en": "Come, my friend, let us not grieve over tomorrow;\nlet us treasure this one breath of life.",
+    "poet": { "en": "Khayyam", "fa": "خیام" }
+  },
+  "opening": {
+    "en": ["I never had my phone out when it mattered.", "So I borrowed from painters who got there first.", "Besides, your name means ‘painting’. I took that as permission.", "Take your time. Nothing in here is in a hurry."],
+    "fa": ["وقتایی که مهم بود، هیچ‌وقت گوشی دستم نبود.", "واسه همین از نقاش‌هایی قرض گرفتم که زودتر از من رسیده بودن.", "تازه اسمتم یه جورایی یعنی نقاشی؛ گفتم لابد اجازه دادی.", "عجله نکن. اینجا هیچی عجله نداره."]
+  },
+  "interludeAfter": 2,
+  "scenes": [
+    {
+      "key": "spring",
+      "photos": ["01", "02"],
+      "moment": "fog",
+      "switchAt": 3,
+      "focus": { "4": [0.52, 0.2] },
+      "label": { "en": "The branch you stole", "fa": "شاخه‌ای که دزدیدی" },
+      "lines": {
+        "en": ["The first time I saw you, you were holding a stolen branch of blossom.", "You’d snapped it off a stranger’s tree and looked perfectly innocent.", "Right there, I made up my mind: I’m on your side.", "It took me three weeks to say more than hello.", "Then you laughed, and I still can’t remember the rest of my sentence."],
+        "fa": ["اولین بار که دیدمت، یه شاخه شکوفه‌ی دزدی دستت بود.", "از درخت خونه‌ی مردم کنده بودی و انگار نه انگار.", "همون‌جا تصمیمم رو گرفتم: من طرف توام.", "سه هفته طول کشید تا یه چیزی بیشتر از سلام بگم.", "بعد خندیدی، و هنوز که هنوزه یادم نیومده بقیه‌ی جمله‌م چی بود."]
+      }
+    },
+    {
+      "key": "picnic",
+      "photos": ["03", "04"],
+      "switchAt": 1,
+      "label": { "en": "The tea without cups", "fa": "چای بدون لیوان" },
+      "lines": {
+        "en": ["Our first picnic. You brought a flask of tea and forgot the cups.", "So we shared the lid, like it was a ceremony.", "Blossoms kept falling into the tea, and you said that was the secret.", "We stayed until the light went gold and the tea went cold.", "I’ve bought a hundred cups since. Not one tastes like that lid."],
+        "fa": ["اولین پیک‌نیکمون. فلاسک چای آوردی، لیوان یادت رفت.", "واسه همین نوبتی با در فلاسک خوردیم، انگار مراسم رسمی بود.", "شکوفه هی می‌افتاد تو چای، تو هم می‌گفتی رازش همینه.", "موندیم تا هوا طلایی شد و چای از دهن افتاد.", "از اون روز صد تا لیوان خریدم؛ هیچ‌کدوم مزه‌ی اون در فلاسکو نمی‌ده."]
+      }
+    },
+    {
+      "key": "brick",
+      "photos": ["05"],
+      "mirror": [3],
+      "label": { "en": "The longest night", "fa": "بلندترین شب" },
+      "lines": {
+        "en": ["Yalda, the longest night. You told stories until the candles gave up.", "I fell asleep in the middle of the best one.", "In the morning, the mirror showed me what you’d written on my forehead:", "to be continued…", "So I came back the next night. I’m still coming back."],
+        "fa": ["شب یلدا بود. اون‌قدر قصه گفتی که شمع‌ها کم آوردن.", "وسط بهترینش خوابم برد.", "صبح تو آینه دیدم رو پیشونیم چی نوشتی:", "ادامه دارد…", "فرداشبش برگشتم. هنوزم دارم برمی‌گردم."]
+      }
+    },
+    {
+      "key": "music",
+      "photos": ["06"],
+      "label": { "en": "The same tune, all winter", "fa": "یه آهنگ، کل زمستون" },
+      "lines": {
+        "en": ["That winter, you decided to learn the setar.", "Every evening for a month, the same little tune.", "The neighbours learned it by heart. So did the pigeons on the sill.", "Somewhere in the second month, it turned into music.", "I still ask for that tune. You grumble, then play it anyway."],
+        "fa": ["اون زمستون تصمیم گرفتی سه‌تار یاد بگیری.", "یه ماه تموم، هر شب همون یه تیکه رو می‌زدی.", "همسایه‌ها حفظش کردن. کفترای لب پنجره هم.", "یه جایی وسط ماه دوم، یهو شد موسیقی.", "هنوزم همون تیکه رو ازت می‌خوام. غر می‌زنی، ولی می‌زنی."]
+      }
+    },
+    {
+      "key": "glass",
+      "photos": ["07", "08"],
+      "switchAt": 2,
+      "label": { "en": "The face I practised", "fa": "قیافه‌ای که تمرین کردم" },
+      "lines": {
+        "en": ["First Nowruz at your family’s. I’d practised this face for a week.", "Serious, reliable, going places. That was the idea.", "Then your grandmother handed me a plate of fruit, and the face was gone.", "Four times your uncle asked what I do. Four different answers.", "On the way home, you said they liked me. I still don’t know how."],
+        "fa": ["اولین عید خونه‌ی شما. یه هفته این قیافه رو جلوی آینه تمرین کرده بودم.", "جدی، قابل‌اعتماد، آینده‌دار. قرار بود این‌جوری به نظر بیام.", "بعد مادربزرگت یه بشقاب میوه داد دستم و همه‌ش دود شد رفت هوا.", "داییت چهار بار پرسید چی‌کاره‌ام. چهار تا جواب مختلف دادم.", "تو راه برگشت گفتی ازم خوششون اومده. هنوزم نفهمیدم چطوری."]
+      }
+    },
+    {
+      "key": "home",
+      "photos": ["09", "10"],
+      "switchAt": 2,
+      "label": { "en": "One room, for now", "fa": "فعلاً یه اتاق" },
+      "lines": {
+        "en": ["Our first place: one room, one window, one decent chair.", "We took turns in the chair. You won most nights.", "Someday, you said: a garden, a cypress, a fountain the kids can fall into.", "I’m writing it down here, so the universe can’t say nobody told it.", "Until then, one room is plenty, as long as you’re in it."],
+        "fa": ["خونه‌ی اولمون: یه اتاق، یه پنجره، یه صندلی درست‌وحسابی.", "نوبتی می‌نشستیم روش. بیشتر شبا تو برنده بودی.", "گفتی یه روزی باغ می‌خوایم، با یه سرو و حوضی که بچه‌ها بیفتن توش.", "اینجا می‌نویسمش که دنیا نتونه بگه کسی بهش نگفته بود.", "تا اون موقع، یه اتاق هم بسه، به شرطی که تو توش باشی."]
+      }
+    }
+  ],
+  "interlude": {
+    "label": { "en": "a quick question", "fa": "یه سؤال کوچیک" },
+    "question": { "en": "Do you love me?", "fa": "دوستم داری؟" },
+    "yes": { "en": "yes", "fa": "آره" },
+    "no": {
+      "en": ["no", "are you sure?", "really sure?", "I’ll tell your mother", "the button disagrees", "think of the tea", "this button has a family", "okay, now I’m begging"],
+      "fa": ["نه", "مطمئنی؟", "جدی‌جدی؟", "به مامانت می‌گم‌ها", "دکمه‌هه قبول نداره", "به اون چاییه فکر کن", "این دکمه زن و بچه داره", "دیگه دارم التماس می‌کنم"]
+    },
+    "noFinal": { "en": "fine. yes. obviously.", "fa": "باشه بابا، آره" },
+    "afterYes": {
+      "en": ["I knew it. I just wanted it in writing.", "Well, in buttons. It still counts.", "Come on, there are more rooms."],
+      "fa": ["می‌دونستم. فقط می‌خواستم مکتوب باشه.", "حالا دکمه‌ای، ولی قبوله.", "بیا، هنوز چند تا اتاق مونده."]
+    }
+  },
+  "hold": {
+    "photo": "11",
+    "prompt": { "en": "Hold my hand. Press here, and don’t let go.", "fa": "دستمو بگیر. همین‌جا رو فشار بده و ول نکن." },
+    "lines": {
+      "en": ["Like at your cousin’s wedding, when the music was too loud to talk.", "We didn’t need to."],
+      "fa": ["مثل عروسی دخترخاله‌ت، که صدای ساز اون‌قدر بلند بود که نمی‌شد حرف زد.", "لازمم نبود حرف بزنیم."]
+    }
+  },
+  "finale": {
+    "letter": {
+      "en": ["Negar, I’m better at making things than saying them, so I made you this.", "These paintings aren’t us, of course. But every one of them was made by someone who looked at another person the way I look at you, and didn’t want to lose it.", "I never remember to take photos, because I’m too busy looking at you. I’ve decided that isn’t a flaw. It’s the whole point.", "There are still rooms we haven’t walked into. Let’s keep walking."],
+      "fa": ["نگار، من ساختنم از گفتنم بهتره؛ واسه همین به جای گفتن، اینو برات ساختم.", "معلومه که این نقاشی‌ها ما نیستیم. ولی هر کدومشونو یکی کشیده که یه نفرو همون‌جوری نگاه می‌کرده که من تو رو نگاه می‌کنم، و نمی‌خواسته از دستش بده.", "من همیشه یادم می‌ره عکس بگیرم، چون سرم گرم نگاه کردن به توئه. دیگه قبول کردم که این عیب نیست؛ اصلاً کل ماجرا همینه.", "هنوز کلی اتاق هست که نرفتیم توش. بیا همین‌جوری ادامه بدیم."]
+    },
+    "signoff": { "en": "Yours, still coming back every night", "fa": "مال تو؛ هنوزم هر شب برمی‌گردم" }
+  },
+  "credits": {
+    "en": ["starring", "Negar", "supporting role", "Kian, and the face he practised", "catering", "Negar’s grandmother, and one endless plate of fruit", "stunts", "a branch of blossom, taken without asking", "make-up", "one blue ballpoint, on one forehead", "soundtrack", "the same little tune, all winter long", "refreshments", "one flask of tea, no cups", "music", "Clair de lune by Claude Debussy, played by Laurens Goedhart (CC BY 3.0)", "paintings", "borrowed from The Metropolitan Museum of Art, all in the public domain", "", "to be continued…"],
+    "fa": ["بازیگر نقش اول", "نگار", "نقش مکمل", "کیان، با قیافه‌ای که تمرین کرده بود", "پذیرایی", "مادربزرگ نگار، با یه بشقاب میوه‌ی تموم‌نشدنی", "بدلکاری", "یه شاخه شکوفه، که بی‌اجازه کنده شد", "گریم", "یه خودکار آبی، روی یه پیشونی", "موسیقی متن", "همون یه تیکه، کل زمستون", "تدارکات", "یه فلاسک چای، بدون لیوان", "موسیقی", "«مهتاب» از کلود دبوسی، با اجرای لورنس خودهارت (CC BY 3.0)", "نقاشی‌ها", "امانت از موزه‌ی هنر متروپولیتن، همه در مالکیت عمومی", "", "ادامه دارد…"]
+  },
+  "coda": {
+    "fa": "از صدای سخن عشق ندیدم خوشتر\nیادگاری که در این گنبد دوار بماند",
+    "en": "I have found nothing sweeter than the sound of love’s words,\nof all the keepsakes left beneath this turning dome.",
+    "poet": { "en": "Hafez", "fa": "حافظ" }
+  },
+  "gallery": {
+    "title": { "en": "The permanent collection", "fa": "مجموعه‌ی دائمی ما" },
+    "subtitle": { "en": "Everything from the story, and whatever we add next. No ticket needed.", "fa": "هر چی تو قصه بود، به‌علاوه‌ی هر چی بعداً اضافه کنیم. بلیت هم نمی‌خواد." },
+    "add": { "en": "add to the collection", "fa": "یه چیزی اضافه کن" },
+    "caption": { "en": "a little label (optional)", "fa": "یه توضیح کوتاه (اختیاری)" },
+    "from": { "en": "from", "fa": "از طرف" },
+    "send": { "en": "hang it on the wall", "fa": "بزنش به دیوار" },
+    "uploading": { "en": "hanging it up…", "fa": "دارم می‌زنمش به دیوار…" },
+    "done": { "en": "it’s in the collection now", "fa": "رفت تو مجموعه" },
+    "empty": { "en": "Nothing new yet. There’s plenty of wall.", "fa": "هنوز چیز تازه‌ای اضافه نشده. دیوار جا داره." },
+    "error": { "en": "That didn’t work. One more try?", "fa": "نشد. یه بار دیگه امتحان کنیم؟" },
+    "offline": { "en": "Look-only today. The curator is out.", "fa": "امروز فقط تماشا. مسئول موزه نیست." },
+    "delete": { "en": "remove it", "fa": "حذفش کن" },
+    "confirmDelete": { "en": "Remove this one from the collection for good?", "fa": "اینو برای همیشه از مجموعه برداریم؟" }
+  },
+  "names": {
+    "her": { "en": "Negar", "fa": "نگار" },
+    "me": { "en": "Kian", "fa": "کیان" }
+  },
+  "ui": {
+    "tap": { "en": "tap to walk on", "fa": "بزن بریم جلوتر" },
+    "begin": { "en": "walk in", "fa": "بریم تو" },
+    "wipe": { "en": "wipe the glass with your finger", "fa": "با انگشتت شیشه رو پاک کن" },
+    "again": { "en": "watch again", "fa": "دوباره از اول" },
+    "toGallery": { "en": "to the collection", "fa": "برو سراغ مجموعه" },
+    "theEnd": { "en": "end of the tour", "fa": "پایان بازدید" },
+    "continue": { "en": "continue", "fa": "ادامه" },
+    "close": { "en": "close", "fa": "بستن" },
+    "welcomeBack": { "en": "nice to see you again", "fa": "چه خوب که برگشتی" },
+    "chapters": { "en": "or go straight to a room", "fa": "یا مستقیم برو سراغ یه اتاق" },
+    "letterChap": { "en": "the letter", "fa": "نامه" }
+  }
+}

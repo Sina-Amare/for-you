@@ -32,8 +32,10 @@ const dims = (f) => execFileSync('ffprobe', ['-v', 'error', '-select_streams', '
   '-show_entries', 'stream=width,height', '-of', 'csv=p=0', f]).toString().trim().split(',').map(Number)
 
 const tmp = mkdtempSync(join(tmpdir(), 'lovegallery-'))
-await mkdir(p('assets/p'), { recursive: true })
-await mkdir(p('assets/t'), { recursive: true })
+for (const d of ['assets/p', 'assets/t']) { // start clean: no stale sealed photos from an earlier set
+  rmSync(p(d), { recursive: true, force: true })
+  await mkdir(p(d), { recursive: true })
+}
 for (const [id, photo] of Object.entries(content.photos)) {
   const src = p('Us', photo.file)
   const full = join(tmp, `${id}.webp`)

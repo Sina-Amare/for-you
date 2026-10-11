@@ -3,3 +3,4 @@ Us/
 private/
 node_modules/
 blueprint
+*.stackdump
