@@ -7,13 +7,13 @@
 </p>
 
 <p align="center">
-  <img src="docs/screenshots/gate.jpg" width="30%" alt="The gate: a stained-glass window above a question and an answer field">
-  <img src="docs/screenshots/scene.jpg" width="30%" alt="A scene: a picture in an arched frame, with lines of a monologue appearing beneath it">
-  <img src="docs/screenshots/interlude.jpg" width="30%" alt="Do you love me? The No button has run to another part of the screen and changed its text, and Yes has grown">
+  <img src="docs/screenshots/gate.jpg" width="30%" alt="The gate: a stained-glass window above the question 'What's the password?', an answer field and a Shakespeare couplet">
+  <img src="docs/screenshots/scene.jpg" width="30%" alt="A scene: Fragonard's The Love Letter in an arched frame, with lines of a monologue appearing beneath it">
+  <img src="docs/screenshots/gallery.jpg" width="30%" alt="The shared gallery: a wall of arched paintings under the title 'Postcards from here', with a 'send a postcard' button">
 </p>
-<p align="center"><sub>Every screenshot uses the bundled sample: public-domain artworks from The Met and made-up words.</sub></p>
+<p align="center"><sub>The screenshots use the two bundled samples: made-up words with public-domain paintings from The Met, Western paintings for the English one and Persian miniatures for the Persian one.</sub></p>
 
-**for you** is a small website you make for one person. They open the link and answer a question only they can answer. A stained-glass window lights up pane by pane, *Clair de lune* fades in, and a short film made of your photos and your words begins: a verse, a few rooms of memories, one silly question, a hand to hold, a letter, end credits, and a wall of photos you can both keep adding to.
+**for you** is a small website you make for one person. They open the link and answer a question only they can answer. A stained-glass window lights up pane by pane, *Clair de lune* fades in, and a short film made of your photos and your words begins: a verse, a few rooms of memories, one silly question, a hand to hold, a letter and end credits. After that comes a **shared photo wall you both keep adding to**, from either phone, for as long as you like.
 
 You can make your own without touching the code. Put your photos in a folder, write your words in one JSON file, choose the answer and run one command. The repository and the site stay public, but every photo and every word is encrypted on your own computer before anything is published.
 
@@ -21,6 +21,8 @@ This repository is not only a template: the site deployed from it is a real, pri
 
 <p align="center">
   <a href="#how-it-plays">How it plays</a> ·
+  <a href="#the-shared-gallery">The shared gallery</a> ·
+  <a href="#in-persian">In Persian</a> ·
   <a href="#private-by-design">Private by design</a> ·
   <a href="#make-your-own">Make your own</a> ·
   <a href="#writing-your-content">Writing your content</a> ·
@@ -32,7 +34,7 @@ This repository is not only a template: the site deployed from it is a real, pri
 ## How it plays
 
 1. **The gate.** A stained-glass window (an *orsi*, the colored sash window of old Persian houses) above your question. A wrong answer gets a gentle reply and a small shake; after the third, your hint appears. The right one lights the window pane by pane, each pane with a faint glass chime, and the music fades in.
-2. **The opening.** A classical Persian couplet is written in, like ink, in Nastaliq calligraphy, with its English translation. Then come the title and a few opening lines.
+2. **The opening.** A verse is written in, like ink: a classical Persian couplet in Nastaliq calligraphy with its translation, or lines of English poetry. Then come the title and a few opening lines.
 3. **The rooms.** Each scene is a photo in an arched frame that develops out of a soft blur like a print, with your words appearing beneath it one line at a time. Tap or swipe to go on, tap the left edge to go back, press and hold to pause. Some rooms hold a small moment:
    - **fog** on the glass, wiped away with a fingertip before the words begin;
    - a line that arrives **mirror-written** and turns round to be read;
@@ -42,30 +44,62 @@ This repository is not only a template: the site deployed from it is a real, pri
 5. **Hold my hand.** They press and keep holding on the photo's hands. A ring fills to a soft heartbeat, which phones that support vibration also let them feel.
 6. **The letter.** Your letter on a sheet of paper, with a drawn flourish under the sign-off.
 7. **The credits.** A film-style roll that slows to a stop on your closing line, then a closing verse and *the end*.
-8. **The wall.** A gallery of every photo in the story, which you can both keep adding to (optional, and encrypted too). On later visits a button skips straight here, and a chapter menu link opens any room or the letter.
+8. **The shared gallery.** Every photo from the story, and every photo either of you adds afterwards, each with a caption, who added it and the date ([more below](#the-shared-gallery)). On later visits a button skips straight here, and a chapter menu link opens any room or the letter.
 
 All of it works in Persian and English. The فا/EN button flips the whole layout to right-to-left, swipes and arrow keys included. With *reduce motion* switched on, every movement becomes a plain fade. It is built to stay smooth on a mid-range Android phone and in Firefox.
 
 <p align="center">
   <img src="docs/screenshots/gate-lit.jpg" width="30%" alt="The right answer: every pane of the stained-glass window lit in ruby, saffron, cobalt and turquoise">
-  <img src="docs/screenshots/opening.jpg" width="30%" alt="The opening: a Persian couplet in Nastaliq calligraphy, the poet's name and an English translation">
-  <img src="docs/screenshots/fog.jpg" width="30%" alt="Fog on the glass: a picture behind misted glass, with a streak wiped clear by a finger">
-  <br><sub>The window lights up · the opening verse · fog on the glass</sub>
+  <img src="docs/screenshots/opening.jpg" width="30%" alt="The opening: the title 'Hand Delivered', a date line in small capitals and the first opening lines">
+  <img src="docs/screenshots/fog.jpg" width="30%" alt="Fog on the glass: a moonlit house behind misted glass, with a streak wiped clear by a finger">
+  <br><sub>The window lights up · the title · fog on the glass</sub>
 </p>
 <p align="center">
-  <img src="docs/screenshots/hold.jpg" width="30%" alt="Hold my hand: a ring half full over the hands in the photo, glowing warmly">
-  <img src="docs/screenshots/letter.jpg" width="30%" alt="The letter: paragraphs on a textured sheet of paper with a sign-off and a drawn flourish">
-  <img src="docs/screenshots/credits.jpg" width="30%" alt="End credits: role labels and names rolling up a dark screen">
-  <br><sub>Hold my hand · the letter · the credits</sub>
+  <img src="docs/screenshots/interlude.jpg" width="23%" alt="Do you love me? Tick one. The No button has fled to a corner as 'insufficient postage', and Yes has grown">
+  <img src="docs/screenshots/hold.jpg" width="23%" alt="Hold my hand: a ring over the joined hands in David's portrait of the Lavoisiers">
+  <img src="docs/screenshots/letter.jpg" width="23%" alt="The letter: paragraphs on a textured sheet of paper with a sign-off and a drawn flourish">
+  <img src="docs/screenshots/credits.jpg" width="23%" alt="End credits: role labels and names rolling up a dark screen">
+  <br><sub>The question · hold my hand · the letter · the credits</sub>
 </p>
 <p align="center">
-  <img src="docs/screenshots/gallery.jpg" width="30%" alt="The wall: a two-column gallery of every photo in the story">
-  <img src="docs/screenshots/scene-fa.jpg" width="30%" alt="A scene in Persian: the lines and the chapter title right-to-left, with Persian digits">
-  <br><sub>The wall · the same story in Persian, right to left</sub>
-</p>
-<p align="center">
-  <img src="docs/screenshots/desktop.jpg" width="100%" alt="A scene on a wide screen: the arch on one side, a placard with the chapter title and the lines on the other">
+  <img src="docs/screenshots/desktop.jpg" width="100%" alt="A scene on a wide screen: Fragonard's The Love Letter in the arch on one side, a placard with the chapter title and the lines on the other">
   <br><sub>On a wide screen each room becomes a quiet gallery wall: the arch on one side, a placard and the lines on the other.</sub>
+</p>
+
+## The shared gallery
+
+The film ends on a wall of photos, and the wall keeps growing.
+
+<p align="center">
+  <img src="docs/screenshots/gallery-add.jpg" width="30%" alt="Adding a photo: the picked picture in an arch, the caption 'Sunday's letter came with these.', FROM Nora or Tom, and 'post it'">
+  <img src="docs/screenshots/gallery-photo.jpg" width="30%" alt="A shared photo opened full screen: Renoir's By the Seashore, the caption 'Normandy. You allowed me exactly one photo. This is it.' and FROM TOM · 25 JULY 2026">
+  <img src="docs/screenshots/gallery-photo-fa.jpg" width="30%" alt="The same in Persian: a miniature of a garden party with a Persian caption, who added it, and the date in the Persian calendar">
+  <br><sub>Adding a photo · a shared photo, opened · the same in Persian, with a Persian-calendar date</sub>
+</p>
+
+- **You both add to it, from your own phones, any time.** Pick a photo, write a line under it, choose who it's from and post it. It appears on the wall for both of you, newest first.
+- **Every photo keeps its story.** Open one to see it full screen with its caption, who added it and the date. Swipe through them all, or take an upload down again after a confirmation.
+- **It's as private as the rest.** Each photo is resized and encrypted in the browser before it leaves the phone. It's stored as an encrypted file in a private GitHub repository that you own. That means it's free, there's no database that expires, and neither of you needs an account or a login.
+- **It's quick on a slow connection.** The wall loads small encrypted copies, the ones on screen first, and keeps them on the phone for the next visit.
+- **`…/?gallery`** opens straight onto the wall, after the password.
+
+Setting it up takes about five minutes: see [the shared gallery](#the-shared-gallery-optional) under *Make your own*. Without it, the wall still shows every photo from the story, look-only.
+
+## In Persian
+
+Everything works in Persian too. The layout flips right to left, numbers and dates turn Persian, and the verses are set in Nastaliq calligraphy. The Persian sample, `example/fa`, was written in Persian from the start, around Persian miniatures. Its theme is «همون قصه‌ی قدیمی»: love is one old story, and it still sounds new.
+
+<p align="center">
+  <img src="docs/screenshots/opening-fa.jpg" width="30%" alt="The opening in Persian: Hafez's couplet about love being one story, in Nastaliq calligraphy">
+  <img src="docs/screenshots/scene-fa.jpg" width="30%" alt="A scene in Persian: Bahram Gur and Dilaram in a Mughal painting, with Persian lines right to left and the chapter number in Persian digits">
+  <img src="docs/screenshots/mirror-fa.jpg" width="30%" alt="The yes at a Persian wedding ceremony, said in the mirror, under a Mughal painting of a couple">
+  <br><sub>The opening verse · a scene · the yes, in the mirror</sub>
+</p>
+<p align="center">
+  <img src="docs/screenshots/interlude-fa.jpg" width="30%" alt="Do you love me? in Persian: the No button has fled, asking for a wedding gift first">
+  <img src="docs/screenshots/letter-fa.jpg" width="30%" alt="The letter in Persian, right to left on paper">
+  <img src="docs/screenshots/gallery-add-fa.jpg" width="30%" alt="Adding a photo in Persian: a Qajar portrait, a Persian caption and who it's from">
+  <br><sub>The question · the letter · adding a photo</sub>
 </p>
 
 ## Private by design
@@ -146,13 +180,19 @@ Get a copy of this repository (**Code → Download ZIP**, or `git clone --depth 
 
 ```sh
 mkdir private Us
-cp example/content.json example/secrets.json private/
-cp example/photos/* Us/
+cp example/secrets.json private/
+cp example/en/content.json private/     # or example/fa/content.json for the Persian sample
+cp example/en/photos/* Us/              # or example/fa/photos/*
 node tools/build.mjs
 npx serve .
 ```
 
 Open the *Local* address that `serve` prints (usually http://localhost:3000) and answer **demo**.
+
+There are two samples, and both use every feature:
+
+- `example/en` is *Hand Delivered*: a year apart, told in letters, with English poetry and Western paintings.
+- `example/fa` is «همون قصه‌ی قدیمی», written in Persian, with Persian miniatures.
 
 - The build replaces `lock.json`, `assets/c.txt`, `assets/p/` and `assets/t/` (the encrypted files that came with this repository) with your own. It ends with a `built … photos, … accepted answers, code version …` line.
 - The first build adds a random `key` to `private/secrets.json` and says so. That key is yours from now on: keep it.
@@ -202,7 +242,7 @@ lock.json, assets/c.txt, assets/p/, assets/t/              built: gate text (pla
 assets/music.m4a.txt, assets/og.jpg                        yours, NOT encrypted              public
 assets/fonts/                                              web fonts and their licenses      public
 tools/build.mjs, tools/lock.test.mjs                       the builder, and its self-test
-example/                                                   the sample (answer: demo)
+example/en/, example/fa/, example/secrets.json             the two samples (answer: demo)
 Us/        your original photos                            git-ignored, never published
 private/   content.json, secrets.json,                     git-ignored, never published
            gallery-token.txt (optional)
@@ -242,7 +282,7 @@ The token only travels inside the encrypted bundle, but anyone who can open the 
 
 ## Writing your content
 
-Everything after the gate comes from `private/content.json`. The sample in `example/content.json` uses every feature, so the quickest start is to rewrite it line by line.
+Everything after the gate comes from `private/content.json`. Both samples, `example/en/content.json` and `example/fa/content.json`, use every feature, so the quickest start is to copy one and rewrite it line by line.
 
 **Five rules that save an evening:**
 
@@ -459,7 +499,7 @@ The roll glides to a stop with the closing line in the middle of the screen, hol
 ### One language only
 
 - Fill only `en` (every `fa` falls back to it), and set `"lang": "en"`.
-- Leave the verses' `fa` empty.
+- Leave the verses' `fa` empty, as the English sample (`example/en`) does, and put English poetry in `en`.
 - Hide the language button by adding `#lang{display:none}` to `style.css`. Otherwise the button still flips the layout to right-to-left.
 
 ### Your answer
@@ -550,10 +590,27 @@ Combine them with `&`, for example `…/?menu&lang=en`.
   - [Markazi Text](https://github.com/BornaIz/markazitext), Copyright 2017 The Markazi Text Project Authors
   - [Noto Nastaliq Urdu](https://github.com/notofonts/nastaliq), Copyright 2022 The Noto Project Authors
 - **Music** (`assets/music.m4a.txt`): "Clair de lune" (*Suite bergamasque*, L. 75, No. 3) by Claude Debussy, performed by Laurens Goedhart (2011), licensed [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Clair_de_lune_%28Claude_Debussy%29_Suite_bergamasque.ogg). Re-encoded to AAC. The composition itself is in the public domain.
-- **Sample images** in `example/photos/` and in the screenshots: public-domain artworks from [The Metropolitan Museum of Art](https://www.metmuseum.org/), released through its Open Access program under [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
+- **Sample images** in `example/en/photos/`, `example/fa/photos/` and the screenshots: public-domain paintings from [The Metropolitan Museum of Art](https://www.metmuseum.org/), released through its Open Access program under [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
 
 <details>
-<summary>The 14 sample artworks</summary>
+<summary>The 24 sample paintings</summary>
+
+**English sample**
+
+- *A Spanish Garden*, Martín Rico y Ortega (Spanish, 1833–1908), 1871 ([The Met, 437462](https://www.metmuseum.org/art/collection/search/437462))
+- *Schloss Milkel in Moonlight*, Carl Gustav Carus (German, 1789–1869), ca. 1833–35 ([The Met, 788905](https://www.metmuseum.org/art/collection/search/788905))
+- *The Love Letter*, Jean Honoré Fragonard (French, 1732–1806), early 1770s ([The Met, 436322](https://www.metmuseum.org/art/collection/search/436322))
+- *Young Woman with a Lute*, Johannes Vermeer (Dutch, 1632–1675), ca. 1662–63 ([The Met, 437880](https://www.metmuseum.org/art/collection/search/437880))
+- *By the Seashore*, Auguste Renoir (French, 1841–1919), 1883 ([The Met, 437430](https://www.metmuseum.org/art/collection/search/437430))
+- *Two Young Girls at the Piano*, Auguste Renoir (French, 1841–1919), 1892 ([The Met, 459112](https://www.metmuseum.org/art/collection/search/459112))
+- *Roses*, Vincent van Gogh (Dutch, 1853–1890), 1890 ([The Met, 436534](https://www.metmuseum.org/art/collection/search/436534))
+- *Roses and Lilies*, Henri Fantin-Latour (French, 1836–1904), 1888 ([The Met, 437996](https://www.metmuseum.org/art/collection/search/437996))
+- *The Letter*, Camille Corot (French, 1796–1875), ca. 1865 ([The Met, 435976](https://www.metmuseum.org/art/collection/search/435976))
+- *Cannon Rock*, Winslow Homer (American, 1836–1910), 1895 ([The Met, 11113](https://www.metmuseum.org/art/collection/search/11113))
+- *Antoine Laurent Lavoisier (1743–1794) and Marie Anne Lavoisier (Marie Anne Pierrette Paulze, 1758–1836)*, Jacques Louis David (French, 1748–1825), 1788 ([The Met, 436106](https://www.metmuseum.org/art/collection/search/436106))
+- *Curiosity*, Gerard ter Borch the Younger (Dutch, 1617–1681), ca. 1660–62 ([The Met, 435714](https://www.metmuseum.org/art/collection/search/435714))
+
+**Persian sample**
 
 - *The Lovers*, Riza-yi 'Abbasi (Iran, Isfahan; Safavid), dated 1039 AH/1630 CE ([The Met, 451023](https://www.metmuseum.org/art/collection/search/451023))
 - *Shah Shuja with a Beloved, Folio from the Shah Jahan Album*, Govardhan (Mughal India; Shah Jahan Album), ca. 1632 (painting side; calligraphy side ca. 1530–50) ([The Met, 451282](https://www.metmuseum.org/art/collection/search/451282))
@@ -567,8 +624,6 @@ Combine them with `&`, for example `…/?menu&lang=en`.
 - *Bahram Gur Sees a Herd of Deer Mesmerized by Dilaram' s Music, Folio from a Khamsa (Quintet) of Amir Khusrau Dihlavi*, Attributed to Miskin (Mughal India); text by Amir Khusrau Dihlavi, 1597–98 ([The Met, 446562](https://www.metmuseum.org/art/collection/search/446562))
 - *Entertainment in a Garden, Folio from a Khamsa of Amir Khusrau Dihlavi, Matla' al-Anvar*, Unknown artist (Iran, Shiraz; Safavid period); text by Amir Khusrau Dihlavi, second half 16th century ([The Met, 451394](https://www.metmuseum.org/art/collection/search/451394))
 - *Two Nightingales in a Rose Bush, Double-Sided Illustrated Leaf from an Ottoman Album*, 'Abdullah Bukhari (Ottoman, probably Istanbul), ca. 1725–45 ([The Met, 898273](https://www.metmuseum.org/art/collection/search/898273))
-- *A Spanish Garden*, Martín Rico y Ortega (Spanish, 1833–1908), 1871 ([The Met, 437462](https://www.metmuseum.org/art/collection/search/437462))
-- *Schloss Milkel in Moonlight*, Carl Gustav Carus (German, 1789–1869), ca. 1833–35 ([The Met, 788905](https://www.metmuseum.org/art/collection/search/788905))
 
 </details>
 

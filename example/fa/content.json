@@ -1,0 +1,187 @@
+{
+  "lang": "fa",
+  "gate": {
+    "label": { "en": "a story, for one person only", "fa": "یه قصه، فقط برای یه نفر" },
+    "intro": { "en": "Plenty of people told this story before me. This time it’s my turn.", "fa": "این قصه رو خیلیا قبل از من گفتن. این دفعه نوبت منه." },
+    "question": { "en": "What’s the password?", "fa": "رمزش چیه؟" },
+    "placeholder": { "en": "password", "fa": "رمز" },
+    "button": { "en": "open it", "fa": "بازش کن" },
+    "wrong": {
+      "en": ["That’s not it. Try again.", "Pretty, but that’s not the password.", "I’ve left you a little hint, just below.", "I’ve written the answer for you right down there.", "Four letters, in English. You can do this.", "Fine, my fault for making the password so hard."],
+      "fa": ["این نبود؛ دوباره امتحان کن.", "قشنگ بود، ولی رمز این نیست.", "یه راهنمایی کوچیک برات گذاشتم، همین پایین.", "جوابشو همون پایین برات نوشتم.", "چهار حرفه، انگلیسی. از پسش برمیای.", "باشه، تقصیر منه که رمزو این‌قدر سخت گرفتم."]
+    },
+    "hint": { "en": "This is only a demo, so the password is: demo", "fa": "این فقط یه نمونه‌ست؛ رمزش اینه: demo" },
+    "welcome": { "en": "welcome, Negar", "fa": "خوش اومدی، نگار" },
+    "verse": {
+      "fa": "دوست دارم که بپوشی رخ همچون قمرت\nتا چو خورشید نبینند به هر بام و درت",
+      "en": "I would have you veil that face, bright as the moon,\nso they cannot see you, like the sun, on every roof and door.",
+      "poet": { "en": "Saadi", "fa": "سعدی" }
+    }
+  },
+  "photos": {
+    "01": { "file": "03-princely-couple.jpg", "focal": [0.5, 0.24], "date": "2021-11-10" },
+    "02": { "file": "10-dilaram-music.jpg", "focal": [0.47, 0.42], "date": "2022-09-06" },
+    "03": { "file": "01-the-lovers.jpg", "focal": [0.62, 0.34], "date": "2022-09-06" },
+    "04": { "file": "04-lady-with-flower.jpg", "focal": [0.58, 0.24], "date": "2023-05-18" },
+    "05": { "file": "02-shah-shuja-beloved.jpg", "focal": [0.35, 0.52], "date": "2023-05-18" },
+    "06": { "file": "06-love-scene.jpg", "focal": [0.5, 0.58] },
+    "07": { "file": "07-dark-palace.jpg", "focal": [0.46, 0.59] },
+    "08": { "file": "12-nightingales-roses.jpg", "focal": [0.55, 0.48], "date": "2026-09-29" },
+    "09": { "file": "05-red-pavilion.jpg", "focal": [0.47, 0.475], "date": "2023-05-18" }
+  },
+  "title": { "en": "That Same Old Story", "fa": "همون قصه‌ی قدیمی" },
+  "date": { "en": "Tabriz, six hundred years ago · Tehran, today", "fa": "تبریز، ششصد سال پیش · تهران، امروز" },
+  "epigraph": {
+    "fa": "یک قصه بیش نیست غم عشق، وین عجب\nکز هر زبان که می‌شنوم، نامکرر است",
+    "en": "Love’s sorrow is but a single story, and here is the wonder:\nfrom every tongue I hear it, it never sounds repeated.",
+    "poet": { "en": "Hafez", "fa": "حافظ" }
+  },
+  "opening": {
+    "en": ["The people who painted these never met each other.", "One in Tabriz, one in Herat, one in Isfahan, one in India.", "And yet they all painted the same story.", "Ours, long before there was an us."],
+    "fa": ["این نقاشی‌ها رو آدمایی کشیدن که هیچ‌وقت همو ندیدن.", "یکی تو تبریز، یکی تو هرات، یکی تو اصفهان، یکی تو هند.", "ولی همه‌شون یه قصه رو کشیدن.", "قصه‌ی ما رو، خیلی قبل از اینکه ما باشیم."]
+  },
+  "interludeAfter": 2,
+  "scenes": [
+    {
+      "key": "look",
+      "photos": ["01"],
+      "moment": "fog",
+      "focus": { "2": [0.52, 0.25] },
+      "label": { "en": "The look you didn’t give", "fa": "نگاهی که نکردی" },
+      "lines": {
+        "en": ["They painted this around the year 1400. AD, that is.", "We met in 1400 as well. The Persian one.", "He’s lifting her chin so she’ll look at him. She keeps her eyes down, but her hand is on his shoulder.", "That day, you looked everywhere but at me.", "It took me two months to see what that meant. The painter knew six hundred years ago."],
+        "fa": ["اینو حدودای سال ۱۴۰۰ کشیدن؛ البته میلادی.", "ما هم سال ۱۴۰۰ همو دیدیم؛ البته شمسی.", "پسره چونه‌ی دخترو گرفته که نگاش کنه؛ دختره پایینو نگاه می‌کنه، ولی دستش رو شونه‌ی پسره‌ست.", "تو هم اون روز همه‌جا رو نگاه کردی جز من.", "من تازه دو ماه بعد فهمیدم یعنی چی؛ نقاشش ششصد سال پیش می‌دونست."]
+      }
+    },
+    {
+      "key": "call",
+      "photos": ["02", "03"],
+      "switchAt": 4,
+      "label": { "en": "The busy line", "fa": "خط اشغال" },
+      "lines": {
+        "en": ["Over one remark, Bahram Gur stormed off and left Dilaram out in the wilds.", "This is how their story ends: both of them reaching out at once.", "We fell out once too, over something silly. Remember?", "Late that night I called you. The line was busy.", "You were calling me."],
+        "fa": ["بهرام گور سر یه حرف قهر کرد و دلارام رو وسط صحرا جا گذاشت.", "این آخر قصه‌شونه: هر دوتا با هم دستشونو سمت هم دراز کردن.", "ما هم یه بار سر یه چیز الکی قهر کردیم، یادته؟", "آخر شب بهت زنگ زدم؛ اشغال بود.", "تو داشتی به من زنگ می‌زدی."]
+      }
+    },
+    {
+      "key": "glass",
+      "photos": ["04", "05"],
+      "switchAt": 2,
+      "mirror": [2],
+      "label": { "en": "Yes, in the mirror", "fa": "بله، تو آینه" },
+      "lines": {
+        "en": ["At our wedding, the first time the officiant asked, the bride had “gone to pick flowers”; the second time, “to fetch rosewater”.", "The third time, I watched your lips move in the mirror:", "With my parents’ and my elders’ permission, yes.", "Millions of brides had said exactly that before you.", "But it was as if I was hearing it for the first time."],
+        "fa": ["سر عقد، بار اول عروس رفته بود گل بچینه، بار دوم گلاب بیاره.", "بار سوم، تو آینه دیدم که لبات تکون خورد:", "با اجازه‌ی پدر و مادرم و بزرگ‌ترا، بله.", "قبل از تو، میلیون‌ها عروس دقیقاً همینو گفته بودن.", "ولی من انگار بار اول بود که می‌شنیدمش."]
+      }
+    },
+    {
+      "key": "tea",
+      "photos": ["06"],
+      "label": { "en": "The colour of tea", "fa": "رنگ چای" },
+      "lines": {
+        "en": ["Under an almond tree, she’s pouring for him.", "He just watches. He doesn’t say “enough”, or “a little more”.", "Everyone else always asks me: strong tea, or weak?", "You stopped asking years ago.", "That’s all love has ever been: someone who no longer needs to ask."],
+        "fa": ["زیر یه درخت بادوم، دختره داره براش می‌ریزه.", "پسره فقط نگاه می‌کنه؛ نه می‌گه بسه، نه می‌گه یه کم دیگه.", "بقیه همیشه ازم می‌پرسن چاییم پررنگ باشه یا کم‌رنگ.", "تو چند ساله دیگه نمی‌پرسی.", "عشق از قدیم همین بوده: یکی که دیگه لازم نیست بپرسه."]
+      }
+    },
+    {
+      "key": "brick",
+      "photos": ["07"],
+      "label": { "en": "When the lamp went off", "fa": "چراغ که خاموش شد" },
+      "lines": {
+        "en": ["That same Bahram had a palace and a story for every night of the week.", "On Saturdays, in the Black Dome, the Indian princess told him stories till midnight.", "We have a fifty-square-metre flat and one bedside lamp.", "But we’ve always said our most important things once that lamp was off.", "Some words only dare to come out in the dark."],
+        "fa": ["همون بهرام هر شب هفته یه قصر داشت و یه قصه.", "شنبه‌ها، تو گنبد سیاه، شاهزاده‌ی هندی تا نصفه‌شب براش قصه می‌گفت.", "ما یه خونه‌ی پنجاه‌متری داریم و یه چراغ خواب.", "ولی مهم‌ترین حرفامونو همیشه وقتی زدیم که همین چراغ خاموش بود.", "بعضی حرفا فقط تو تاریکی جرئت می‌کنن بیان بیرون."]
+      }
+    },
+    {
+      "key": "frame",
+      "photos": ["08"],
+      "label": { "en": "The gold frame", "fa": "قاب طلا" },
+      "lines": {
+        "en": ["In the old albums, the smallest paintings went inside the biggest frames.", "Two birds on one rose stem, and all these frames around them.", "If I had one gold frame, I wouldn’t put it around our wedding photo.", "I’d put it around the sound of your key in the door, at seven in the evening."],
+        "fa": ["تو آلبومای قدیمی، کوچیک‌ترین نقاشی رو وسط بزرگ‌ترین قاب می‌ذاشتن.", "دو تا پرنده رو یه شاخه گل، و دورشون این همه قاب.", "اگه من یه قاب طلا داشتم، دور عکس عروسی‌مون نمی‌ذاشتمش.", "می‌ذاشتمش دور صدای کلیدت تو در، ساعت هفت عصر."]
+      }
+    }
+  ],
+  "interlude": {
+    "label": { "en": "the real question", "fa": "سؤال اصلی" },
+    "question": { "en": "Do you love me?", "fa": "دوستم داری؟" },
+    "yes": { "en": "yes", "fa": "بله" },
+    "no": {
+      "en": ["nope", "the bride’s gone to pick flowers", "the bride’s gone to fetch rosewater", "want a gift first?", "the officiant is leaving!", "the cameraman’s recording this", "the pastries have gone stale", "my mum is crying"],
+      "fa": ["نخیر", "عروس رفته گل بچینه", "عروس رفته گلاب بیاره", "زیرلفظی می‌خوای؟", "عاقد داره می‌ره‌ها", "فیلم‌بردار داره ضبط می‌کنه‌ها", "شیرینیا بیات شد", "مامانم داره گریه می‌کنه"]
+    },
+    "noFinal": { "en": "with my elders’ permission: yes", "fa": "با اجازه‌ی بزرگ‌ترا، بله" },
+    "afterYes": {
+      "en": ["The second yes is on record too.", "And this one can’t be taken back either.", "Now, on with the story."],
+      "fa": ["بله‌ی دوم هم ثبت شد.", "این یکی رو هم دیگه نمی‌شه پس گرفت.", "حالا بریم سراغ بقیه‌ی قصه."]
+    }
+  },
+  "hold": {
+    "photo": "09",
+    "prompt": { "en": "Hold my hand. Press right here, and don’t let go.", "fa": "دستمو بگیر. همین‌جا رو نگه دار و ول نکن." },
+    "lines": {
+      "en": ["These two haven’t let go of each other’s hands in five hundred years.", "We’re not going to either."],
+      "fa": ["پونصد ساله این دوتا دست همو ول نکردن.", "ما هم قرار نیست ول کنیم."]
+    }
+  },
+  "finale": {
+    "letter": {
+      "en": [
+        "Negar,",
+        "For a while I was looking for a new way to tell you I love you. Then I saw these paintings, and realised there isn’t one.",
+        "For six hundred years people have said it with the same few small things: eyes that look away, a busy line, a yes, tea poured without asking, a few words in the dark, a key at seven, a hand they won’t let go of.",
+        "Hafez was right: it’s only one story. But when I hear it from you, it still sounds like the first time.",
+        "Remember the two lovers wrapped up in each other? In the corner of that painting, Reza Abbasi wrote: finished on Tuesday, the eighth of Shawwal. In the corner of this one, I’m writing: not finished yet."
+      ],
+      "fa": [
+        "نگار جان،",
+        "یه مدت دنبال یه راه تازه می‌گشتم که بگم دوستت دارم. بعد این نقاشی‌ها رو دیدم و فهمیدم راه تازه‌ای در کار نیست.",
+        "ششصد ساله آدما همینو با همون چند تا کار کوچیک می‌گن: یه نگاهی که می‌دزدن، یه خط اشغال، یه بله، یه چایی که نپرسیده می‌ریزن، یه حرف تو تاریکی، یه کلید ساعت هفت، یه دستی که ول نمی‌کنن.",
+        "حافظ راست می‌گفت: یه قصه بیشتر نیست. ولی وقتی از زبون تو می‌شنومش، هنوزم انگار بار اوله.",
+        "اون دوتا عاشقی که توی هم گره خورده بودن یادته؟ رضا عباسی گوشه‌ی همون نقاشی نوشته: سه‌شنبه، هشتم شوال، تموم شد. من گوشه‌ی این یکی می‌نویسم: هنوز تموم نشده."
+      ]
+    },
+    "signoff": { "en": "Yours, in the middle of this same old story", "fa": "مال تو، وسط همین قصه‌ی قدیمی" }
+  },
+  "credits": {
+    "en": ["screenplay", "a few centuries of painters, and a tiny bit of me", "starring", "Negar", "supporting role", "Kian", "flowers and rosewater", "the bride, on two occasions", "guest star", "the officiant, with the patience of Job", "telecommunications", "one busy line, right on time", "catering", "one pot of tea, no questions asked", "lighting", "one bedside lamp, mostly off", "sound effects", "one key, seven p.m.", "music", "Clair de lune by Claude Debussy, played by Laurens Goedhart (CC BY 3.0)", "paintings", "The Metropolitan Museum of Art, all in the public domain", "", "That same old story. This time, starring the two of us."],
+    "fa": ["فیلم‌نامه", "نقاشای چند قرن، و یه ذره هم من", "نقش اول", "نگار", "نقش مکمل", "کیان", "گل و گلاب", "عروس خانم، در دو نوبت", "بازیگر مهمان", "حاج‌آقای عاقد، با صبر ایوب", "مخابرات", "یه خط اشغال، درست سر وقت", "تدارکات", "یه قوری چای، نپرسیده", "نورپردازی", "یه چراغ خواب، بیشتر وقتا خاموش", "جلوه‌های صوتی", "یه کلید، ساعت هفت عصر", "موسیقی", "«مهتاب» از کلود دبوسی، با اجرای لورنس خودهارت (CC BY 3.0)", "نقاشی‌ها", "موزه‌ی هنر متروپولیتن، همه در مالکیت عمومی", "", "همون قصه‌ی قدیمی؛ این دفعه با بازی ما دوتا."]
+  },
+  "gallery": {
+    "title": { "en": "The album that never ends", "fa": "آلبومی که تموم نمی‌شه" },
+    "subtitle": { "en": "The pictures from the story, and every day we add from now on.", "fa": "عکسای قصه، و هر روزی که از این به بعد بهش اضافه کنیم." },
+    "add": { "en": "add a photo", "fa": "یه عکس اضافه کن" },
+    "caption": { "en": "write something under it (optional)", "fa": "یه چیزی زیرش بنویس (اختیاری)" },
+    "from": { "en": "from", "fa": "از طرف" },
+    "send": { "en": "put it in the album", "fa": "بذارش تو آلبوم" },
+    "uploading": { "en": "putting it in the album…", "fa": "داره می‌ره تو آلبوم…" },
+    "done": { "en": "it’s in the album", "fa": "رفت تو آلبوم" },
+    "empty": { "en": "Nothing added yet. There’s plenty of room.", "fa": "هنوز چیزی اضافه نکردیم. جا زیاده." },
+    "error": { "en": "It didn’t go through. Try again?", "fa": "نرفت. یه بار دیگه امتحان کنیم؟" },
+    "offline": { "en": "Look-only for now. Adding will have to wait.", "fa": "فعلاً فقط می‌شه تماشا کرد؛ اضافه کردن بمونه برای بعد." },
+    "delete": { "en": "take it out", "fa": "برش دار" },
+    "confirmDelete": { "en": "Sure you want to take this one out of the album?", "fa": "مطمئنی اینو از آلبوم برداریم؟" }
+  },
+  "names": {
+    "her": { "en": "Negar", "fa": "نگار" },
+    "me": { "en": "Kian", "fa": "کیان" }
+  },
+  "ui": {
+    "tap": { "en": "tap for the next one", "fa": "بزن بریم بعدی" },
+    "begin": { "en": "let’s go", "fa": "بریم" },
+    "wipe": { "en": "wipe the fog off the glass with your finger", "fa": "با انگشتت بخار شیشه رو پاک کن" },
+    "again": { "en": "once more, from the start", "fa": "یه بار دیگه از اول" },
+    "toGallery": { "en": "go to the album", "fa": "برو سراغ آلبوم" },
+    "theEnd": { "en": "the end, for now", "fa": "پایان این قسمت" },
+    "continue": { "en": "continue", "fa": "ادامه" },
+    "close": { "en": "close", "fa": "بستن" },
+    "welcomeBack": { "en": "back again? lovely", "fa": "باز اومدی؟ چه خوب" },
+    "chapters": { "en": "or jump to a part of the story", "fa": "یا برو سراغ یه تیکه از قصه" },
+    "letterChap": { "en": "the letter", "fa": "نامه" }
+  },
+  "coda": {
+    "fa": "از صدای سخن عشق ندیدم خوشتر\nیادگاری که در این گنبد دوار بماند",
+    "en": "I have found nothing sweeter than the sound of love’s words,\nof all the keepsakes left beneath this turning dome.",
+    "poet": { "en": "Hafez", "fa": "حافظ" }
+  }
+}

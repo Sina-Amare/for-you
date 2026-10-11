@@ -1,0 +1,175 @@
+{
+  "lang": "en",
+  "gate": {
+    "label": { "en": "special delivery", "fa": "پست سفارشی" },
+    "intro": { "en": "No stamp on this one. It didn’t have far to go.", "fa": "این یکی تمبر نداره. راهش زیاد دور نبود." },
+    "question": { "en": "What’s the password?", "fa": "رمزش چیه؟" },
+    "placeholder": { "en": "password", "fa": "رمز" },
+    "button": { "en": "open it", "fa": "بازش کن" },
+    "wrong": {
+      "en": ["Returned unopened.", "Wrong address. Try again?", "All right, I’ve left you a clue underneath.", "The answer’s in the clue. Honestly.", "Four letters. Starts with d.", "Take your time. I’m good at waiting now."],
+      "fa": ["دربسته برگشت خورد.", "آدرس اشتباهه. دوباره امتحان می‌کنی؟", "باشه، یه راهنمایی همین پایین برات گذاشتم.", "جوابش تو راهنماییه. جدی می‌گم.", "چهار حرفه، با d شروع می‌شه.", "عجله نکن. من دیگه صبر کردنو خوب بلدم."]
+    },
+    "hint": { "en": "This one’s a demo. The password is: demo", "fa": "این یه نسخه‌ی نمونه‌ست. رمزش: demo، با کیبورد انگلیسی." },
+    "welcome": { "en": "there you are, Nora", "fa": "اومدی، نورا" },
+    "verse": {
+      "fa": "",
+      "en": "If the dull substance of my flesh were thought,\nInjurious distance should not stop my way;",
+      "poet": { "en": "Shakespeare", "fa": "شکسپیر" }
+    }
+  },
+  "photos": {
+    "01": { "file": "20-white-roses.jpg", "focal": [0.5, 0.42], "date": "2024-09-14" },
+    "02": { "file": "15-love-letter.jpg", "focal": [0.45, 0.29], "date": "2024-09-14" },
+    "03": { "file": "17-lute-player.jpg", "focal": [0.36, 0.44], "date": "2024-11-02" },
+    "04": { "file": "26-curiosity.jpg", "focal": [0.55, 0.47], "date": "2025-01-18" },
+    "05": { "file": "23-cannon-rock.jpg", "focal": [0.5, 0.55], "date": "2025-03-09" },
+    "06": { "file": "14-moonlit-castle.jpg", "focal": [0.6, 0.42], "date": "2025-09-07" },
+    "07": { "file": "22-the-letter.jpg", "focal": [0.6, 0.42], "date": "2025-09-07" },
+    "08": { "file": "19-girls-at-piano.jpg", "focal": [0.5, 0.36], "date": "2026-02-07" },
+    "09": { "file": "25-lavoisiers.jpg", "focal": [0.55, 0.59], "date": "2026-06-06" }
+  },
+  "title": { "en": "Hand Delivered", "fa": "نامه‌ی بی‌تمبر" },
+  "date": { "en": "a year · two cities · fifty-two letters", "fa": "یه سال · دو تا شهر · ۵۲ تا نامه" },
+  "epigraph": {
+    "fa": "",
+    "en": "My letters! all dead paper, mute and white!\nAnd yet they seem alive and quivering",
+    "poet": { "en": "Elizabeth Barrett Browning", "fa": "الیزابت برت براونینگ" }
+  },
+  "opening": {
+    "en": ["For a year, you were in Edinburgh and I was in Vienna.", "We made one rule: no ‘I miss you’ by text.", "If you meant it, you wrote it down and paid for the stamp.", "I posted fifty-one. This one, I’m handing you myself."],
+    "fa": ["یه سال تموم، تو ادینبرو بودی و من وین.", "یه قانون گذاشتیم: «دلم برات تنگ شده» با پیام قبول نیست.", "اگه واقعاً دلت تنگ شده بود، باید می‌نوشتیش و پول تمبرشم می‌دادی.", "پنجاه و یک تاشو پست کردم. این یکی رو خودم آوردم."]
+  },
+  "interludeAfter": 2,
+  "scenes": [
+    {
+      "key": "airport",
+      "photos": ["01", "02"],
+      "switchAt": 2,
+      "label": { "en": "The first letter", "fa": "نامه‌ی اول" },
+      "lines": {
+        "en": ["At the airport, I hid the first letter in your roses.", "You promised not to open it until I’d gone.", "I looked back from security. You were already reading.", "You’ve never been able to wait for anything.", "Except for me, it turned out. For a whole year."],
+        "fa": ["تو فرودگاه، نامه‌ی اول رو لای دسته‌گلت قایم کردم.", "قول دادی تا نرفتم بازش نکنی.", "دم گیت برگشتم نگاه کردم؛ داشتی می‌خوندیش.", "تو هیچ‌وقت نتونستی واسه هیچی صبر کنی.", "فقط واسه من صبر کردی؛ یه سال تموم."]
+      }
+    },
+    {
+      "key": "saturday",
+      "photos": ["03"],
+      "label": { "en": "Saturday mornings", "fa": "صبحای شنبه" },
+      "lines": {
+        "en": ["Saturday mornings, you sat by the window, ‘practising’.", "Really, you were listening for the letterbox.", "Behind you, a map of Europe, with a pin in Vienna.", "Hannah told me later: all year, you never finished a single song."],
+        "fa": ["شنبه‌ها صبح کنار پنجره می‌نشستی و مثلاً تمرین می‌کردی.", "ولی راستش گوشت به در بود که نامه‌رسون کی میاد.", "پشت سرت یه نقشه‌ی اروپا بود، با یه پونز روی وین.", "هانا بعداً بهم گفت: کل اون سال یه آهنگم تا آخر نزدی."]
+      }
+    },
+    {
+      "key": "glass",
+      "photos": ["04"],
+      "mirror": [3],
+      "label": { "en": "The backwards line", "fa": "خط برعکس" },
+      "lines": {
+        "en": ["You wrote back at the table, always with an audience.", "Hannah read over your shoulder. Priya just stood there, judging.", "So you wrote the last line of every letter backwards:", "I miss you. Don’t tell Hannah.", "I bought a little mirror in Vienna, just for that line."],
+        "fa": ["جواب نامه‌هامو سر میز می‌نوشتی، همیشه هم با تماشاچی.", "هانا از پشت سرت سرک می‌کشید؛ پریا هم وایمیستاد و عاقل‌اندرسفیه نگاهت می‌کرد.", "واسه همین خط آخر هر نامه رو برعکس می‌نوشتی:", "دلم برات تنگ شده. به هانا نگی‌ها.", "تو وین یه آینه‌ی کوچیک خریدم، فقط واسه همین یه خط."]
+      }
+    },
+    {
+      "key": "march",
+      "photos": ["05"],
+      "label": { "en": "Nine days in March", "fa": "نُه روزِ اسفند" },
+      "lines": {
+        "en": ["March: our one real fight. On the phone, of course.", "Two rocks, and a lot of angry sea between them.", "Then nine days without a letter, from either of us.", "On the tenth, yours came: ‘sorry’ three times, ‘but I was right’ once.", "Nobody stays angry at the speed of handwriting."],
+        "fa": ["اسفند بود. تنها دعوای جدی‌مون، اونم پشت تلفن.", "شده بودیم دو تا صخره، با یه دریا دلخوری وسطمون.", "بعدش نُه روز هیچ نامه‌ای نیومد، نه از این‌ور نه از اون‌ور.", "روز دهم نامه‌ت رسید: سه بار «ببخشید»، یه بار «ولی حق با من بود».", "با خودکار نمی‌شه دعوا کرد؛ تا جمله تموم شه، آدم آروم شده."]
+      }
+    },
+    {
+      "key": "brick",
+      "photos": ["06", "07"],
+      "moment": "fog",
+      "switchAt": 3,
+      "focus": { "2": [0.69, 0.49] },
+      "label": { "en": "A week early", "fa": "یه هفته زودتر" },
+      "lines": {
+        "en": ["I came home a week early, and I didn’t tell you.", "Two in the morning. The whole house asleep…", "…except one window. Yours.", "You’d fallen asleep in the armchair, my last letter in your lap.", "I didn’t wake you. I’d waited a year; I could wait till morning."],
+        "fa": ["یه هفته زودتر برگشتم و بهت نگفتم.", "ساعت دو نصفه‌شب بود و کل خونه خواب بود…", "…جز یه پنجره. پنجره‌ی تو.", "رو مبل خوابت برده بود، آخرین نامه‌م هم رو پات بود.", "بیدارت نکردم. یه سال صبر کرده بودم؛ تا صبحم می‌تونستم."]
+      }
+    },
+    {
+      "key": "now",
+      "photos": ["08"],
+      "label": { "en": "Saturdays, now", "fa": "شنبه‌های این روزا" },
+      "lines": {
+        "en": ["Saturdays are different now.", "You play. I lean over and point at the music, like I can read it.", "Last week, you played a whole song, start to finish.", "Turns out you can, when you’re not waiting for anyone."],
+        "fa": ["شنبه‌ها الان یه جور دیگه‌ست.", "تو می‌زنی، من خم می‌شم و به نت‌ها اشاره می‌کنم، انگار سر در میارم.", "هفته‌ی پیش یه آهنگو از اول تا آخر زدی.", "معلوم شد می‌تونی؛ وقتی دیگه منتظر کسی نیستی."]
+      }
+    }
+  ],
+  "interlude": {
+    "label": { "en": "a note, folded twice", "fa": "یه یادداشت تاخورده" },
+    "question": { "en": "Do you love me? Tick one.", "fa": "دوستم داری؟ یکی رو تیک بزن." },
+    "yes": { "en": "yes", "fa": "آره" },
+    "no": {
+      "en": ["nope", "return to sender", "not known at this address", "insufficient postage", "lost in the post", "Hannah opened it first", "Hannah says tick yes", "out of stamps. I give up."],
+      "fa": ["نوچ", "برگشت به فرستنده", "گیرنده شناخته نشد", "تمبرش کمه", "تو پست گم شد", "هانا زودتر بازش کرد", "هانا می‌گه آره رو بزن", "تمبر تموم شد. تسلیم."]
+    },
+    "noFinal": { "en": "yes, by return of post", "fa": "آره، با پست پیشتاز" },
+    "afterYes": {
+      "en": ["Received. I’m keeping this one.", "Fastest reply you’ve sent me all year.", "Right. Back to the letters."],
+      "fa": ["رسید. اینو نگه می‌دارم.", "سریع‌ترین جوابی بود که این یه سال ازت گرفتم.", "خب، برگردیم سر نامه‌ها."]
+    }
+  },
+  "hold": {
+    "photo": "09",
+    "prompt": { "en": "This never fit in an envelope. Hold my hand: press, and don’t let go.", "fa": "اینو هیچ‌وقت نمی‌شد گذاشت تو پاکت. دستمو بگیر: فشار بده و ول نکن." },
+    "lines": {
+      "en": ["There. One table, one room, one city.", "All year, that’s all I wanted."],
+      "fa": ["حالا شد. یه میز، یه اتاق، یه شهر.", "کل اون یه سال، فقط همینو می‌خواستم."]
+    }
+  },
+  "finale": {
+    "letter": {
+      "en": ["Nora,", "You opened the first letter before I’d even gone. This one, I’m right here while you read it.", "Our silly rule was the best idea we ever had. When every word costs a stamp and a week, you stop wasting them, and you only write what you mean. I meant every line I sent you. Even the long bits about my landlord.", "We don’t need the rule any more. I’m keeping it anyway: if I miss you, I’ll write it down, even when you’re only in the next room.", "So far this week, that’s happened twice."],
+      "fa": ["نورا جان،", "نامه‌ی اول رو هنوز نرفته بودم که بازش کردی. این یکی رو داری می‌خونی و من همین‌جا کنارتم.", "اون قانون بچگونه‌مون بهترین فکری بود که تا حالا به سرمون زده. وقتی هر کلمه یه تمبر خرج داره و یه هفته طول می‌کشه تا برسه، دیگه کلمه حروم نمی‌کنی؛ فقط حرف دلتو می‌نویسی. تک‌تک خط‌هایی که برات فرستادم حرف دلم بود؛ حتی اون تیکه‌های طولانی درباره‌ی صاحبخونه‌م.", "دیگه اون قانونو لازم نداریم، ولی من نگهش می‌دارم: هر وقت دلم برات تنگ شد، می‌نویسمش، حتی اگه فقط اتاق بغلی باشی.", "این هفته تا حالا دو بار پیش اومده."]
+    },
+    "signoff": { "en": "Yours, from the next room", "fa": "مال تو، از اتاق بغلی" }
+  },
+  "credits": {
+    "en": ["starring", "Nora", "also starring, mostly by post", "Tom", "reading over shoulders", "Hannah", "standing there, judging", "Priya", "postal service", "one very patient postman", "props", "one map of Europe, one pin, one small mirror", "sound effects", "the letterbox, every Saturday morning", "music", "Clair de lune by Claude Debussy, played by Laurens Goedhart (CC BY 3.0)", "paintings", "The Metropolitan Museum of Art, all in the public domain", "", "P.S. Write back."],
+    "fa": ["بازیگر نقش اول", "نورا", "با حضور، بیشتر غیابی", "تام", "سرک کشیدن از پشت شونه", "هانا", "نگاه عاقل‌اندرسفیه", "پریا", "خدمات پستی", "یه نامه‌رسون خیلی صبور", "وسایل صحنه", "یه نقشه‌ی اروپا، یه پونز، یه آینه‌ی کوچیک", "جلوه‌های صوتی", "زنگ نامه‌رسون، صبح هر شنبه", "موسیقی", "«مهتاب» از کلود دبوسی، با اجرای لورنس خودهارت (CC BY 3.0)", "نقاشی‌ها", "موزه‌ی هنر متروپولیتن، همه در مالکیت عمومی", "", "پ.ن. منتظر جوابتم."]
+  },
+  "coda": {
+    "fa": "",
+    "en": "Thy firmness makes my circle just,\nAnd makes me end where I begun.",
+    "poet": { "en": "John Donne", "fa": "جان دان" }
+  },
+  "gallery": {
+    "title": { "en": "Postcards from here", "fa": "کارت‌پستال از همین‌جا" },
+    "subtitle": { "en": "Everything from the story, and every postcard we send each other from now on.", "fa": "هر چی تو قصه بود، با هر کارت‌پستالی که از این به بعد واسه هم می‌فرستیم." },
+    "add": { "en": "send a postcard", "fa": "یه کارت‌پستال بفرست" },
+    "caption": { "en": "write on the back (optional)", "fa": "پشتش یه چیزی بنویس (اختیاری)" },
+    "from": { "en": "from", "fa": "از طرف" },
+    "send": { "en": "post it", "fa": "پستش کن" },
+    "uploading": { "en": "in the post…", "fa": "تو راهه…" },
+    "done": { "en": "delivered", "fa": "رسید" },
+    "empty": { "en": "No postcards yet. The letterbox is waiting.", "fa": "هنوز کارت‌پستالی نیومده. صندوق پست منتظره." },
+    "error": { "en": "It didn’t get there. Send it again?", "fa": "نرسید. یه بار دیگه بفرستیم؟" },
+    "offline": { "en": "View-only for now: the post office is closed.", "fa": "فعلاً فقط می‌شه نگاه کرد؛ اداره‌ی پست تعطیله." },
+    "delete": { "en": "take it back", "fa": "پسش بگیر" },
+    "confirmDelete": { "en": "Take this postcard back for good?", "fa": "این کارت‌پستالو برای همیشه پس بگیریم؟" }
+  },
+  "names": {
+    "her": { "en": "Nora", "fa": "نورا" },
+    "me": { "en": "Tom", "fa": "تام" }
+  },
+  "ui": {
+    "tap": { "en": "tap to read on", "fa": "بزن، ادامه داره" },
+    "begin": { "en": "read it", "fa": "بخونش" },
+    "wipe": { "en": "wipe the window with your finger", "fa": "با انگشتت شیشه رو پاک کن" },
+    "again": { "en": "read it again", "fa": "دوباره بخونش" },
+    "toGallery": { "en": "to the postcards", "fa": "برو سراغ کارت‌پستال‌ها" },
+    "theEnd": { "en": "that’s all for now", "fa": "فعلاً همین" },
+    "continue": { "en": "continue", "fa": "ادامه" },
+    "close": { "en": "close", "fa": "بستن" },
+    "welcomeBack": { "en": "back for another read?", "fa": "اومدی دوباره بخونی؟" },
+    "chapters": { "en": "or turn to a page", "fa": "یا برو سراغ یه صفحه" },
+    "letterChap": { "en": "letter fifty-two", "fa": "نامه‌ی پنجاه و دوم" }
+  }
+}
