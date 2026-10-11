@@ -1,0 +1,5 @@
+# encrypted bytes / audio with a .txt name (so download managers ignore them): never touch line endings
+assets/c.txt binary
+assets/p/*.txt binary
+assets/t/*.txt binary
+assets/music.m4a.txt binary

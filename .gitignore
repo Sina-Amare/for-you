@@ -1,0 +1,5 @@
+# originals (contain camera metadata) and everything readable — never publish
+Us/
+private/
+node_modules/
+blueprint
